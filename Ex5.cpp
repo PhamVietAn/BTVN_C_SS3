@@ -2,9 +2,9 @@
 
 int main(){
 	
-	printf("danh sach sinh vien:\n");
+	printf("%50s","DANH SACH SINH VIEN\n");
 	printf("------------------------------------------------------------------------------\n");
-	printf("| STT | %-15s | %-5s | %-15s | %-25s|\n", "Ho Va Ten", "Tuoi", "So Dien Thoai", "email");
+	printf("| STT | %-15s | %-5s | %-15s | %-25s|\n", "Ho Va Ten", "Tuoi", "So Dien Thoai", "Email");
 	printf("------------------------------------------------------------------------------\n"); 
 	printf("| STT | %-15s | %-5s | %-15s | %-25s|\n", "Nguyen Van A", "18", "0904488991", "anv@rikkeiacademy.com");
 	printf("------------------------------------------------------------------------------\n"); 
